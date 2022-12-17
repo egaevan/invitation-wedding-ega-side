@@ -30,13 +30,11 @@ export const Footer = () => {
                     </Link>
                 </div>
                 <div className='containerFooter'>
-                    <Link href="" as="" passHref>
-                        <div className={classnames('containerFooter flex cursor-pointer flex-col items-center')}>
+                <div className={classnames('containerFooter flex cursor-pointer flex-col items-center')}>
                             <Image src={Location} width={25} height={25} alt="Location" />
 
                             <p>Location</p>
                         </div>
-                    </Link>
                 </div>
                 <div className='containerFooter '>
                     <Link href="/message" as="/message" passHref>

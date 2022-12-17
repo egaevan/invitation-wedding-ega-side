@@ -5,15 +5,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/layout.js"
     ],
-    "/message/page": [
+    "/location/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/message/page.js"
+      "static/chunks/app/location/page.js"
     ],
-    "/message/layout": [
+    "/location/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/message/layout.js"
+      "static/chunks/app/location/layout.js"
     ],
     "/profile/page": [
       "static/chunks/webpack.js",
@@ -25,15 +25,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/profile/layout.js"
     ],
-    "/location/page": [
+    "/message/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/location/page.js"
+      "static/chunks/app/message/page.js"
     ],
-    "/location/layout": [
+    "/message/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/location/layout.js"
+      "static/chunks/app/message/layout.js"
     ],
     "/dashboard/page": [
       "static/chunks/webpack.js",
