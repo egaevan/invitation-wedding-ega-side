@@ -26,28 +26,28 @@ export default function Page() {
         <p className={classnames('text-[14px] max-w-[355px] leading-[100%] tracking-[.1em] font-dancing opacity-0')} ref={item => { textTitle = item }}>“Dan di antara tanda-tanda kekuasaan Allah ialah diciptakan-Nya untukmu pasangan hidup dari jenismu sendiri supaya kamu merasa tentram di samping-Nya dan dijadikan-Nya rasa kasih sayang di antara kamu. Sesungguhnya yang demikian itu menjadi bukti kekuasaan Allah bagi kaum yang berfikir.“
           <br /><br /><span >(QS. Ar- Rum 21)</span></p>
       </div>
-      <div className='flex justify-end relative z-99 mt-3 opacity-0' ref={item => { textEga = item }}>
-        <div className={classnames('mr-[-20px]')}>
-          <Image src={Ica} width={300} alt="ega" />
-        </div>
-        <div className='absolute left-0 top-[42px]'>
-          <p className={classnames('font-dancing text-[#965A00] text-[24px]')}>Annisa Nurgustia, S.Kom.</p>
-          <p className={classnames('max-w-[121px] text-[#965A00] text-[14px] text-[#000000] leading-[17px] font-montaga')}>Putri dari
-            Bpk. Agus Setiawan
-            & Ibu Nettia Murni</p>
-        </div>
-      </div>
-      <div className='relative mt-[-100px] z-2 opacity-0' ref={item => { textIca = item }}>
+      <div className='relative mt-[-10px] z-2 opacity-0' ref={item => { textIca = item }}>
         <div className={classnames('ml-[-35px] z-99')}>
         <Image src={Ega} width={300} alt="ega" />
         </div>
-        <div className='absolute flex left-[100px] top-[133px]'>
+        <div className='absolute flex left-[100px] top-[50px]'>
           <div className={classnames('flex flex-col')}>
           <p className={classnames('font-dancing text-[#965A00] text-[24px]')}>Ega Evan, S.Kom.</p>
           <p className={classnames('max-w-[121px] text-[#965A00] text-[14px] text-[#000000] leading-[17px] font-montaga')}>Putra dari
             Bpk. Ardimus Achmad
             & Ibu Surniati Sawir</p>
           </div>
+        </div>
+      </div>
+      <div className='flex justify-end relative z-99 mt-[-50px] opacity-0' ref={item => { textEga = item }}>
+        <div className={classnames('mr-[-20px]')}>
+          <Image src={Ica} width={300} alt="ega" />
+        </div>
+        <div className='absolute left-0 top-[60px]'>
+          <p className={classnames('font-dancing text-[#965A00] text-[24px]')}>Annisa Nurgustia, S.Kom.</p>
+          <p className={classnames('max-w-[121px] text-[#965A00] text-[14px] text-[#000000] leading-[17px] font-montaga')}>Putri dari
+            Bpk. Agus Setiawan
+            & Ibu Nettia Murni</p>
         </div>
       </div>
     </div>
