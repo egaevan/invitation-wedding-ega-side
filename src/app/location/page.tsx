@@ -38,7 +38,7 @@ export default function Page() {
         />
         <div className={classnames('absolute flex flex-col top-[110px] left-0 right-0 ml-auto mr-auto text-center opacity-0')} ref={item => { textTitle = item }}>
           <h1 className={classnames('text-white text-[24px] leading-[150%] tracking-[0.3em] font-caladea')}>THE WEDDING</h1>
-          <h1 className={classnames('text-white text-[24px] leading-[150%] tracking-[0.3em] font-caladea mt-[31px]')}>ICA & EGA </h1>
+          <h1 className={classnames('text-white text-[24px] leading-[150%] tracking-[0.3em] font-caladea mt-[31px]')}>EGA & ICA </h1>
         </div>
       </div>
 
@@ -97,7 +97,7 @@ export default function Page() {
               <div className={classnames('ml-3')}>
                 <Image src={Calender} height={10} width={23} alt="ring-image" />
               </div>
-              <h1 className={classnames('ml-[8px] text-[14px] font-caladea')}>Sabtu, 7 Januari 2023</h1>
+              <h1 className={classnames('ml-[8px] text-[14px] font-caladea')}>Sabtu, 14 Januari 2023</h1>
             </div>
             <div className={classnames('flex mb-[14px]')}>
               <div className={classnames('ml-3')}>
@@ -109,9 +109,9 @@ export default function Page() {
               <div className={classnames('ml-3')}>
                 <Image src={Place} height={10} width={23} alt="ring-image" />
               </div>
-              <h1 className={classnames('ml-[8px] text-[14px] font-caladea w-[250px]')}>Rumah Mempelai Wanita
-                Jl. Mr. M. Roem No. 1, Padang Panjang Timur,
-                Padang Panjang</h1>
+              <h1 className={classnames('ml-[8px] text-[14px] font-caladea w-[250px]')}>Rumah Mempelai Pria
+                Jl. Rambutan Raya No. 143, Perumnas Belimbing,
+                Padang</h1>
             </div>
           </div>
         </div>
