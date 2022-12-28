@@ -23,8 +23,8 @@ export default function Page() {
   return (
     <div className={classnames('border-[4px]  max-h-[calc(100vh-220px)]  md:max-h-[calc(100vh-80px)] lg:max-h-[calc(100vh-80px)] overflow-x-hidden overflow-y-auto   border-[#BB9096] p-[16px] opacity-0')} ref={item => { containerBorder = item }}>
       <div className={classnames('flex flex-col text-center items-center justify-center ')}>
-        <p className={classnames('text-[14px] max-w-[355px] leading-[100%] tracking-[.1em] font-dancing opacity-0')} ref={item => { textTitle = item }}>“Dan di antara tanda-tanda kekuasaan Allah ialah diciptakan-Nya untukmu pasangan hidup dari jenismu sendiri supaya kamu merasa tentram di samping-Nya dan dijadikan-Nya rasa kasih sayang di antara kamu. Sesungguhnya yang demikian itu menjadi bukti kekuasaan Allah bagi kaum yang berfikir.“
-          <br /><br /><span >(QS. Ar- Rum 21)</span></p>
+        <p className={classnames('text-[16px] max-w-[355px] leading-[100%] tracking-[.1em] font-dancing opacity-0')} ref={item => { textTitle = item }}>Bismillahirrahmanirrahiim
+          <br /><br /><span >Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud menyelenggarakan Akad Nikah & Resepsi Pernikahan putra-putri kami,</span></p>
       </div>
       <div className='relative mt-[-10px] z-2 opacity-0' ref={item => { textIca = item }}>
         <div className={classnames('ml-[-35px] z-99')}>
@@ -33,9 +33,9 @@ export default function Page() {
         <div className='absolute flex left-[100px] top-[50px]'>
           <div className={classnames('flex flex-col')}>
           <p className={classnames('font-dancing text-[#965A00] text-[24px]')}>Ega Evan, S.Kom.</p>
-          <p className={classnames('max-w-[121px] text-[#965A00] text-[14px] text-[#000000] leading-[17px] font-montaga')}>Putra dari
-            Bpk. Ardimus Achmad
-            & Ibu Surniati Sawir</p>
+          <p className={classnames('text-[#965A00] text-[14px] text-[#000000] leading-[17px] font-montaga')}>Putra dari Bpk.
+            <br/>Ardimus Achmad
+            <br/>& Ibu Surniati Sawir</p>
           </div>
         </div>
       </div>
@@ -45,9 +45,9 @@ export default function Page() {
         </div>
         <div className='absolute left-0 top-[60px]'>
           <p className={classnames('font-dancing text-[#965A00] text-[24px]')}>Annisa Nurgustia, S.Kom.</p>
-          <p className={classnames('max-w-[121px] text-[#965A00] text-[14px] text-[#000000] leading-[17px] font-montaga')}>Putri dari
-            Bpk. Agus Setiawan
-            & Ibu Nettia Murni</p>
+          <p className={classnames('text-[#965A00] text-[14px] text-[#000000] leading-[17px] font-montaga')}>Putri dari Bpk.
+            <br/>Agus Setiawan, M.Pd.
+            <br/>& Ibu Nettia Murni</p>
         </div>
       </div>
     </div>

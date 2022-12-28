@@ -5,7 +5,7 @@ import Image from 'next/image';
 import flower3 from '../../../public/flower3.png'
 import Ica from '../../../public/Ica.png'
 import { TweenMax, Power3 } from 'gsap'
-import BG from '../../../public/bg.png'
+import BG from '../../../public/bg-loc-small.png'
 import Calender from '../../../public/calender.png'
 import Time from '../../../public/time.png'
 import Place from '../../../public/place.png'
@@ -36,9 +36,9 @@ export default function Page() {
           src={BG}
           object-fit='fill'
         />
-        <div className={classnames('absolute flex flex-col top-[110px] left-0 right-0 ml-auto mr-auto text-center opacity-0')} ref={item => { textTitle = item }}>
-          <h1 className={classnames('text-white text-[24px] leading-[150%] tracking-[0.3em] font-caladea')}>THE WEDDING</h1>
-          <h1 className={classnames('text-white text-[24px] leading-[150%] tracking-[0.3em] font-caladea mt-[31px]')}>EGA & ICA </h1>
+        <div className={classnames('absolute flex flex-col top-[90px] left-0 right-0 ml-auto mr-auto text-center opacity-0')} ref={item => { textTitle = item }}>
+          <h1 className={classnames('text-black text-[24px] leading-[100%] tracking-[0.3em] font-caladea')}>THE WEDDING</h1>
+          <h1 className={classnames('text-black text-[24px] leading-[100%] tracking-[0.3em] font-caladea mt-[31px]')}>EGA & ICA</h1>
         </div>
       </div>
 
@@ -75,18 +75,27 @@ export default function Page() {
               </div>
               <h1 className={classnames('ml-[8px] text-[14px] font-caladea')}>Islamic Center Padang Panjang</h1>
             </div>
+            <div className={classnames('flex flex-col items-center justify-center')}>
+              <div className={classnames('ml-3 ')}>
+                <a href="https://goo.gl/maps/HrRy93wF767hev2r9">
+                  <button className={classnames('py-[8px] w-[250px] mt-[12px] rounded-md relative bg-[#D49494] text-white opacity-1 hover:bg-[#e8aeae]')}>
+                    Open Maps
+                  </button>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div className={classnames('mt-[100px] px-[40px] opacity-0')} ref={item => { containerBorder2 = item }}>
-        <div className={classnames('bg-[#FEDFE3] h-[366px] relative rounded-md')} style={{ boxShadow: '2px 4px 4px rgba(0, 0, 0, 0.25)' }}>
+        <div className={classnames('bg-[#FEDFE3] h-[400px] relative rounded-md')} style={{ boxShadow: '2px 4px 4px rgba(0, 0, 0, 0.25)' }}>
           <div className={classnames(' text-center flex items-center justify-center ml-auto mr-auto')}>
             <div className={classnames('absolute top-[-40px] w-[221px] h-[80px]')}>
               <Image src={flower3} object-fit='fill' alt="ring-image" />
             </div>
 
           </div>
-          <div className={classnames('m-[16px] border border-[#BB9096] h-[330px] flex flex-col justify-center')}>
+          <div className={classnames('m-[16px] border border-[#BB9096] h-[370px] flex flex-col justify-center')}>
             <div className={classnames('flex flex-col items-center justify-center')}>
               <div className={classnames('ml-3')}>
                 <Image src={Cheers} height={53} width={53} alt="ring-image" />
@@ -112,6 +121,15 @@ export default function Page() {
               <h1 className={classnames('ml-[8px] text-[14px] font-caladea w-[250px]')}>Rumah Mempelai Pria
                 Jl. Rambutan Raya No. 143, Perumnas Belimbing,
                 Padang</h1>
+            </div>
+            <div className={classnames('flex flex-col items-center justify-center')}>
+              <div className={classnames('ml-3 ')}>
+                <a href="https://goo.gl/maps/n8XkYkGioaxiVEnh8">
+                  <button className={classnames('py-[8px] w-[250px] mt-[12px] rounded-md relative bg-[#D49494] text-white opacity-1 hover:bg-[#e8aeae]')}>
+                    Open Maps
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
