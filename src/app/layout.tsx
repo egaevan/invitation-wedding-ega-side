@@ -6,7 +6,9 @@ import Icon from '../../public/cincin.png'
 export default function RootLayout({ children }: {
   children: React.ReactNode;
 }) {
-  return (
+    const [play, setPlay] = React.useState(false)
+
+    return (
     <html lang="en">
       <link rel="shortcut icon" href='/cincin.png'></link>
       <title>Wedding Ega ♥ Ica</title>

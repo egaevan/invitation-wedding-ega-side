@@ -12,6 +12,7 @@ export default function Page() {
   let textTitle : any = React.useRef(null)
   let textEga : any = React.useRef(null)
   let textIca : any = React.useRef(null)
+  const [play, setPlay] = React.useState(true)
 
 
   React.useEffect(() => {
