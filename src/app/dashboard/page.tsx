@@ -22,22 +22,22 @@ export default function Page() {
   const to = searchParams.get('to');
 
 
-  // var sound = new Howl({
-  //   src: ['./Akad.mp3'],
-  //   autoplay: true,
-  //   loop:true,
-  //   onplayerror: function() {
-  //     sound.once('unlock', function() {
-  //       sound.play();
-  //     });
-  //   }
-  // });
+  var sound = new Howl({
+    src: ['./Akad.mp3'],
+    autoplay: true,
+    loop:true,
+    onplayerror: function() {
+      sound.once('unlock', function() {
+        sound.play();
+      });
+    }
+  });
   React.useEffect(() => {
     TweenMax.to(weddingText, .8, { opacity: 1, y: -20, ease: Power3.easeOut })
     TweenMax.to(assText, .8, { opacity: 1, y: -40, delay: .3, ease: Power3.easeOut })
     TweenMax.to(containerName, .8, { opacity: 1, y: -20, delay: .3, ease: Power3.easeOut })
     TweenMax.to(btnWedding, .8, { opacity: 1, y: -20, delay: .5, ease: Power3.easeOut })
-    // sound.play();
+    sound.play();
 
   }, [])
 
