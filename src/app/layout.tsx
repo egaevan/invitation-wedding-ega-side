@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react'
 import "../utils/global.css";
-import Icon from '../../public/cincin.png'
+import {Howl, Howler} from 'howler'
 
 export default function RootLayout({ children }: {
   children: React.ReactNode;
