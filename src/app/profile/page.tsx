@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Ega from '../../../public/Ega.png'
 import Ica from '../../../public/Ica.png'
 import { TweenMax, Power3 } from 'gsap'
+import {Howl, Howler} from 'howler'
 
 export default function Page() {
   let containerBorder: any = React.useRef(null)
@@ -12,12 +13,24 @@ export default function Page() {
   let textEga : any = React.useRef(null)
   let textIca : any = React.useRef(null)
 
+  var sound = new Howl({
+    src: ['./Akad.mp3'],
+    autoplay: true,
+    loop:true,
+    onplayerror: function() {
+      sound.once('unlock', function() {
+        sound.play();
+      });
+    }
+  });
+
 
   React.useEffect(() => {
     TweenMax.to(containerBorder, .8, { opacity: 1, ease: Power3.easeOut })
     TweenMax.to(textTitle, .8, { opacity: 1,delay:.5, ease: Power3.easeOut })
     TweenMax.to(textEga, .8, { opacity: 1,delay:.8, ease: Power3.easeOut })
     TweenMax.to(textIca, .8, { opacity: 1,delay:1, ease: Power3.easeOut })
+    sound.play();
 }, [])
 
   return (
